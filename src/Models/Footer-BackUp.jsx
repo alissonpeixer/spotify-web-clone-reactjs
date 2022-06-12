@@ -11,19 +11,18 @@ export function Footer() {
 
 
                 <nav className=" 
-                   
 
-                    max-w-[1500px] 
+                    max-w-[1470px] 
                     min-w-screen
                     space-x-4  
                     m-auto
                    
               
-                    lg:w-[1500x]
-                    lg:pb-14
-                    lg:flex
-                    lg:flex-wrap
-                    lg:space-x-20
+                    md:w-[1470x]
+                    md:pb-14
+                    md:flex
+                    md:flex-wrap
+                    md:space-x-20
                 ">
 
 
@@ -33,7 +32,7 @@ export function Footer() {
                         w-50 
                         w-auto 
 
-                        lg:pr-5
+                        md:pr-5
                     '>
                         <a href="#" class="mh-footer-primary svelte-18o1xvt">
                             <span class="mh-footer-primary svelte-1gcdbl9">
@@ -55,8 +54,8 @@ export function Footer() {
                         
                         text-[1rem] 
                         
-                        lg:text-[1.2rem]  
-                        lg:space-y-6
+                        md:text-[1.2rem]  
+                        md:space-y-6
                         
                     ">
 
@@ -77,9 +76,9 @@ export function Footer() {
                    
                         text-[1rem] 
                         
-                        lg:pt-7 
-                        lg:text-[1.2rem]
-                        lg:space-y-6 
+                        md:pt-7 
+                        md:text-[1.2rem]
+                        md:space-y-6 
                        
                          
                     ">
@@ -100,9 +99,9 @@ export function Footer() {
                         space-y-4 
                         w-40
 
-                        lg:pt-7 
-                        lg:text-[1.2rem]
-                        lg:space-y-6 
+                        md:pt-7 
+                        md:text-[1.2rem]
+                        md:space-y-6 
                     
                     ">
                         <dt className="text-footer circularFont">LINKS ÚTEIS</dt>
@@ -115,22 +114,21 @@ export function Footer() {
                     </div>
 
 
-                   
+
 
                     <div className=" 
-                       
+                        border-2 border-white
                         pt-52 
                         pb-5 
 
-
-                        lg:pt-7                        
-                        lg:mb-auto
-                        lg:absolute
-                        lg:left-[70%]
-                        lg:top-[118%]
-                        lg:ml-30
-                        ld:mt-auto
-                        lg:max-w-lg
+                        md:pt-7
+                        
+                        md:mb-auto
+                        md:grid 
+                        md:justify-items-end
+                        md:ml-auto
+                    
+                        md:max-w-lg
                 
                         
                     ">
@@ -165,9 +163,9 @@ export function Footer() {
                         space-x-2 
                         items-center 
 
-                        lg:w-[100%] 
-                        lg:pt-40
-                        lg:pr-9
+                        md:w-[100%] 
+                        md:pt-40
+                        md:pr-9
                     '>
                         <a  href="https://www.spotify.com/br/select-your-country-region/">
                             <svg width="12" height="13" viewBox="0 0 12 13" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" class="svelte-184rsfv">
@@ -180,25 +178,25 @@ export function Footer() {
                         <span>Brasil</span>
                     </div>
 
-                    <div className=" mt-10  text-[0.7rem]  text-footer flex lg:text-[1rem] lg:w-[100%] lg:mt-3   ">
+                    <div className=" mt-10  text-[0.7rem]  text-footer flex md:text-[1rem] md:w-[100%] md:mt-3   ">
 
-                        <ul className='grid grid-cols-2 content-center  lg:flex'>
+                        <ul className='grid grid-cols-2 content-center  md:flex'>
 
                             <li className='pr-5 '>
                                 <a href="">Centro de Privacidade</a>
                             </li>
 
-                            <li  className='pb-2 lg:pr-5 '>
+                            <li  className='pb-2 md:pr-5 '>
                                 <a href="">Legal</a>
                             </li>
 
                  
 
-                            <li className='pb-2 lg:pr-5 '>
+                            <li className='pb-2 md:pr-5 '>
                                 <a href="">Política de privacidade</a>
                             </li>
 
-                            <li className='lg:pr-5 '>
+                            <li className='md:pr-5 '>
                                 <a href="">Cookies</a> 
                             </li>
 
@@ -209,7 +207,7 @@ export function Footer() {
                             
                         </ul>
                         <span class="ml-auto pr-3
-                        lg:pr-9
+                        md:pr-9
                         ">© 2022 Spotify AB</span>
                     </div>
 
