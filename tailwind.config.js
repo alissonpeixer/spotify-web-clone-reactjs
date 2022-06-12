@@ -10,7 +10,7 @@ module.exports = {
       "white": "white",
       "greenForte": "#1ed760",
       "textBtn": "#2941AB",
-      "footerTitle": "#919496"
+      "footer": "#919496"
     }
   },
   plugins: [],
