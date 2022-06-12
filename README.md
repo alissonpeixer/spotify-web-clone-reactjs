@@ -3,18 +3,23 @@
 #
 # Clone Project
 `NodeJs Version >= 12.0.0`
-```shell
-----------------------------------------------------------------------
-  Clone project
-  $ git clone https://github.com/alissonpeixer/spotify-web-clone-react
-  
+
+Clone project
+  ```shell
 ----------------------------------------------------------------------
 
+
+  $ git clone https://github.com/alissonpeixer/spotify-web-clone-react
+
+----------------------------------------------------------------------
+```
+
+```shell
   Go to project folder
   $ cd spotify-web-clone-react/
   
 ----------------------------------------------------------------------
-  
+```
   Install dependency
   $ yarn  or  $ npm
   
